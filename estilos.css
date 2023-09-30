@@ -1,0 +1,149 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos de Card */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+main{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(154, 46, 249);
+}
+
+.card-container{
+  width: 350px;
+  height: 480px;
+  display: inline-block;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 5px 10px 50px lime;
+}
+
+.img-background{
+  display: inline-block;
+  width: 100%;
+  height: 160px;
+  background: url(https://images.pexels.com/photos/1743165/pexels-photo-1743165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+  z-index: 10;
+}
+
+.card-img-profile {
+  display: inline-block;
+  position: absolute;
+  top: 90px;
+  left: 104px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 5px solid white;
+  z-index: 20;
+  background: url("https://images.pexels.com/photos/5122188/pexels-photo-5122188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center/cover no-repeat;
+}
+
+.card_profile {
+  display: flex;
+  width: 100%;
+  margin: 45px auto 20px;
+  flex-direction: column;
+}
+
+.card_profile h1 {
+  width: 65%;
+  margin: 10px auto 7px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.65);
+  color: #025395;
+}
+
+.card_profile p {
+  padding: 0 30px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.card_information {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+  margin-top: 35px;
+  font-size: 1.2rem;
+}
+
+.country {
+  display: grid;
+  grid-template-columns: 20px 60px;
+}
+
+.card_information img {
+  width: 15px;
+}
+
+.mail {
+  display: grid;
+  grid-template-columns: 20px 85px;
+}
+
+.follow {
+  display: grid;
+  grid-template-columns: 60px 60px;
+  justify-content: space-evenly;
+  background-color: rgb(214, 214, 214);
+  color: black;
+  border-top: 2px solid rgba(248, 248, 248, 0.876);
+}
+
+span {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.followers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.following {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  padding-top: 23px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+  background-color: #025395;
+  color: rgb(255, 255, 255);
+}
