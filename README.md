@@ -1,8 +1,7 @@
 # ¡Hola! Soy Pedro Damian 👋
 
 🎓 Estudiante del VII ciclo de la carrera de Sistemas de la gestion de la Informacion
-💻 Interesado en desarrollo web y movil
-📍 Huaral, Lima, Perú  
+💻 Interesado en desarrollo web y movil 
 
 ## Sobre mí
 
